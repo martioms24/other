@@ -1,0 +1,32 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <rect width="200" height="200" fill="#FFF5F0" rx="16"/>
+  <!-- Pizza slice -->
+  <path d="M100 30 L160 155 L40 155 Z" fill="#F4A460"/>
+  <!-- Tomato sauce -->
+  <path d="M100 40 L153 148 L47 148 Z" fill="#E8503A"/>
+  <!-- Cheese -->
+  <path d="M100 55 L147 145 L53 145 Z" fill="#FFD700"/>
+  <path d="M100 55 L130 120 L70 120 Z" fill="#FFEC7A"/>
+  <!-- Cheese bubbles -->
+  <circle cx="90" cy="110" r="6" fill="#FFC200"/>
+  <circle cx="112" cy="118" r="5" fill="#FFC200"/>
+  <circle cx="100" cy="98" r="4" fill="#FFC200"/>
+  <!-- Toppings - pepperoni -->
+  <circle cx="100" cy="85" r="8" fill="#C0392B"/>
+  <circle cx="100" cy="85" r="6" fill="#E74C3C"/>
+  <circle cx="82" cy="115" r="7" fill="#C0392B"/>
+  <circle cx="82" cy="115" r="5" fill="#E74C3C"/>
+  <circle cx="118" cy="112" r="7" fill="#C0392B"/>
+  <circle cx="118" cy="112" r="5" fill="#E74C3C"/>
+  <!-- Basil -->
+  <ellipse cx="105" cy="130" rx="7" ry="4" fill="#27AE60" transform="rotate(-15 105 130)"/>
+  <ellipse cx="88" cy="138" rx="6" ry="3.5" fill="#27AE60" transform="rotate(20 88 138)"/>
+  <!-- Crust -->
+  <path d="M100 30 L40 155 L160 155 Z" fill="none" stroke="#DEB887" stroke-width="16" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M100 30 L40 155 L160 155 Z" fill="none" stroke="#F4A460" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- Crust dots -->
+  <circle cx="62" cy="145" r="3" fill="#DEB887"/>
+  <circle cx="138" cy="145" r="3" fill="#DEB887"/>
+  <!-- Label -->
+  <text x="100" y="185" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#E8503A">Pizza</text>
+</svg>

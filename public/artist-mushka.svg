@@ -1,0 +1,40 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <rect width="200" height="200" fill="#0D1A12" rx="16"/>
+  <!-- Background glow -->
+  <radialGradient id="glow4" cx="50%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#10B981" stop-opacity="0.35"/>
+    <stop offset="100%" stop-color="#0D1A12" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="200" height="200" fill="url(#glow4)" rx="16"/>
+  <!-- Body -->
+  <ellipse cx="100" cy="150" rx="46" ry="32" fill="#1A2E20"/>
+  <!-- Neck -->
+  <rect x="89" y="113" width="22" height="20" rx="4" fill="#C8A878"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="95" rx="30" ry="34" fill="#C8A878"/>
+  <!-- Hair - long dark -->
+  <path d="M70 88 Q72 56 100 52 Q128 56 130 88 Q130 72 126 64 Q114 44 100 42 Q86 44 74 64 Q70 72 70 88 Z" fill="#1A0A05"/>
+  <!-- Long side hair -->
+  <path d="M70 88 Q64 110 68 130 Q66 115 70 88 Z" fill="#1A0A05"/>
+  <path d="M130 88 Q136 110 132 130 Q134 115 130 88 Z" fill="#1A0A05"/>
+  <!-- Face features -->
+  <ellipse cx="89" cy="91" rx="3.5" ry="4.5" fill="#1A0A05"/>
+  <ellipse cx="111" cy="91" rx="3.5" ry="4.5" fill="#1A0A05"/>
+  <!-- Eyelashes -->
+  <path d="M86 88 Q87 84 88 87" stroke="#1A0A05" stroke-width="1.5" fill="none"/>
+  <path d="M108 88 Q109 84 110 87" stroke="#1A0A05" stroke-width="1.5" fill="none"/>
+  <path d="M90 108 Q100 113 110 108" stroke="#7D5030" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Guitar or music element -->
+  <ellipse cx="100" cy="158" rx="16" ry="12" fill="#5D4037"/>
+  <ellipse cx="100" cy="155" rx="10" ry="8" fill="#6D4C41"/>
+  <circle cx="100" cy="155" r="3" fill="#3E2723"/>
+  <!-- Strings -->
+  <line x1="100" y1="143" x2="100" y2="133" stroke="#A0956E" stroke-width="1"/>
+  <line x1="97" y1="143" x2="97" y2="133" stroke="#A0956E" stroke-width="0.8"/>
+  <line x1="103" y1="143" x2="103" y2="133" stroke="#A0956E" stroke-width="0.8"/>
+  <!-- Music notes -->
+  <text x="25" y="55" font-family="system-ui,sans-serif" font-size="18" fill="rgba(16,185,129,0.4)">♪</text>
+  <text x="158" y="50" font-family="system-ui,sans-serif" font-size="14" fill="rgba(16,185,129,0.35)">♫</text>
+  <!-- Name -->
+  <text x="100" y="184" text-anchor="middle" font-family="system-ui,sans-serif" font-size="14" font-weight="800" fill="#6EE7B7">Mushka</text>
+</svg>

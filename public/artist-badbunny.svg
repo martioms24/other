@@ -1,0 +1,37 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <rect width="200" height="200" fill="#1A0A2E" rx="16"/>
+  <!-- Background glow -->
+  <radialGradient id="glow3" cx="50%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#9B59B6" stop-opacity="0.5"/>
+    <stop offset="100%" stop-color="#1A0A2E" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="200" height="200" fill="url(#glow3)" rx="16"/>
+  <!-- Body -->
+  <ellipse cx="100" cy="148" rx="48" ry="34" fill="#2D1A4E"/>
+  <!-- Neck -->
+  <rect x="88" y="112" width="24" height="20" rx="4" fill="#7C6040"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="96" rx="34" ry="37" fill="#7C6040"/>
+  <!-- Hair - black with colored tips/dye -->
+  <path d="M66 85 Q68 52 100 48 Q132 52 134 85 Q134 68 130 60 Q116 40 100 38 Q84 40 70 60 Q66 68 66 85 Z" fill="#0A0A0A"/>
+  <!-- Colored hair streak -->
+  <path d="M80 50 Q85 45 90 50 Q90 65 88 78 Q84 65 80 50 Z" fill="#9B59B6"/>
+  <path d="M66 85 Q63 98 65 106 Q62 90 66 85 Z" fill="#0A0A0A"/>
+  <!-- Bunny ears (his logo) -->
+  <ellipse cx="82" cy="42" rx="7" ry="16" fill="#E8B4D8" transform="rotate(-10 82 42)"/>
+  <ellipse cx="118" cy="42" rx="7" ry="16" fill="#E8B4D8" transform="rotate(10 118 42)"/>
+  <ellipse cx="82" cy="42" rx="4" ry="12" fill="#CC88BB" transform="rotate(-10 82 42)"/>
+  <ellipse cx="118" cy="42" rx="4" ry="12" fill="#CC88BB" transform="rotate(10 118 42)"/>
+  <!-- Face features - sunglasses -->
+  <rect x="76" y="86" width="20" height="12" rx="6" fill="#0A0A0A" stroke="#9B59B6" stroke-width="1.5"/>
+  <rect x="104" y="86" width="20" height="12" rx="6" fill="#0A0A0A" stroke="#9B59B6" stroke-width="1.5"/>
+  <line x1="96" y1="92" x2="104" y2="92" stroke="#9B59B6" stroke-width="2"/>
+  <line x1="68" y1="92" x2="76" y2="92" stroke="#9B59B6" stroke-width="1.5"/>
+  <line x1="124" y1="92" x2="132" y2="92" stroke="#9B59B6" stroke-width="1.5"/>
+  <path d="M89 110 Q100 116 111 110" stroke="#3D2010" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Name -->
+  <text x="100" y="180" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="800" fill="#D8A8E8">Bad Bunny</text>
+  <!-- Stars -->
+  <text x="22" y="48" font-size="14" fill="rgba(155,89,182,0.5)">✦</text>
+  <text x="163" y="42" font-size="12" fill="rgba(155,89,182,0.4)">✦</text>
+</svg>

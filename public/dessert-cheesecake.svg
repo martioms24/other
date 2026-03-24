@@ -1,0 +1,38 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <rect width="200" height="200" fill="#FFF8F5" rx="16"/>
+  <!-- Plate -->
+  <ellipse cx="100" cy="162" rx="75" ry="12" fill="#F0EAE0"/>
+  <ellipse cx="100" cy="159" rx="72" ry="10" fill="#E8E0D0"/>
+  <!-- Cake slice shadow -->
+  <path d="M48 155 L100 82 L152 155 Z" fill="rgba(0,0,0,0.06)" transform="translate(3,4)"/>
+  <!-- Crust bottom -->
+  <path d="M48 155 L100 82 L152 155 Z" fill="#C8A878"/>
+  <path d="M52 150 L100 86 L148 150 Z" fill="#D4B48C"/>
+  <!-- Cheesecake body -->
+  <path d="M52 148 L100 78 L148 148 Z" fill="#FFF5E0"/>
+  <path d="M52 148 L100 78 L148 148 Z" fill="#FFFAF5"/>
+  <!-- Graham cracker crust on bottom -->
+  <path d="M50 150 L100 150 L150 150 L148 155 L52 155 Z" fill="#C8A060"/>
+  <path d="M50 150 L100 150 L150 150" fill="none" stroke="#A07840" stroke-width="2"/>
+  <!-- Strawberry topping -->
+  <!-- Strawberries on top of slice -->
+  <circle cx="100" cy="92" r="10" fill="#E8503A"/>
+  <path d="M95 88 Q100 82 105 88" fill="#C0392B"/>
+  <path d="M92 92 Q96 86 100 90 Q104 86 108 92" fill="none" stroke="rgba(255,255,255,0.4)" stroke-width="1"/>
+  <!-- Strawberry leaves -->
+  <path d="M97 83 Q100 78 103 83" fill="#27AE60"/>
+  <path d="M95 84 Q100 80 105 84" fill="none" stroke="#27AE60" stroke-width="1.5"/>
+  <!-- Strawberry seeds -->
+  <ellipse cx="97" cy="91" rx="1" ry="1.5" fill="#FFE0D0" transform="rotate(-20 97 91)"/>
+  <ellipse cx="103" cy="91" rx="1" ry="1.5" fill="#FFE0D0" transform="rotate(20 103 91)"/>
+  <ellipse cx="100" cy="95" rx="1" ry="1.5" fill="#FFE0D0"/>
+  <!-- Berry sauce drips -->
+  <path d="M90 100 Q85 110 88 118" stroke="#E8503A" stroke-width="3" stroke-linecap="round" fill="none"/>
+  <path d="M110 100 Q115 112 112 122" stroke="#E8503A" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+  <!-- Whipped cream swirl on slice -->
+  <path d="M75 130 Q80 122 88 125 Q85 118 92 120 Q95 115 100 118" stroke="white" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <!-- Cream cheese texture -->
+  <path d="M58 140 Q80 136 100 138 Q120 136 142 140" fill="none" stroke="rgba(200,180,140,0.3)" stroke-width="6"/>
+  <!-- Label -->
+  <text x="100" y="185" text-anchor="middle" font-family="system-ui,sans-serif" font-size="11" font-weight="700" fill="#C8784A">Pastís de formatge</text>
+</svg>

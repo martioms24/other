@@ -1,0 +1,34 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <rect width="200" height="200" fill="#FFF9F0" rx="16"/>
+  <!-- Top bun -->
+  <ellipse cx="100" cy="80" rx="62" ry="32" fill="#F4A460"/>
+  <ellipse cx="100" cy="68" rx="60" ry="28" fill="#DEB887"/>
+  <ellipse cx="100" cy="66" rx="58" ry="26" fill="#F4A460"/>
+  <!-- Sesame seeds -->
+  <ellipse cx="85" cy="60" rx="5" ry="3" fill="#F5DEB3" transform="rotate(-20 85 60)"/>
+  <ellipse cx="105" cy="56" rx="5" ry="3" fill="#F5DEB3" transform="rotate(10 105 56)"/>
+  <ellipse cx="120" cy="64" rx="5" ry="3" fill="#F5DEB3" transform="rotate(-10 120 64)"/>
+  <ellipse cx="78" cy="70" rx="4" ry="2.5" fill="#F5DEB3" transform="rotate(15 78 70)"/>
+  <!-- Lettuce -->
+  <path d="M35 95 Q55 85 75 92 Q95 82 115 90 Q135 80 155 88 Q165 95 155 103 Q135 96 115 104 Q95 96 75 104 Q55 96 35 104 Z" fill="#7DB87D"/>
+  <path d="M38 100 Q58 90 78 97 Q98 87 118 95 Q138 85 158 93" fill="none" stroke="#5A9A5A" stroke-width="1.5"/>
+  <!-- Tomato -->
+  <rect x="45" y="103" width="110" height="10" rx="3" fill="#E8503A"/>
+  <rect x="45" y="103" width="110" height="5" rx="3" fill="#F06050"/>
+  <!-- Cheese -->
+  <path d="M38 113 L42 108 L158 108 L162 113 L158 120 L42 120 Z" fill="#FFD700"/>
+  <path d="M38 113 L42 108 L158 108 L162 113" fill="#FFC200"/>
+  <!-- Patty -->
+  <rect x="38" y="120" width="124" height="20" rx="8" fill="#6B3A2A"/>
+  <rect x="38" y="120" width="124" height="10" rx="8" fill="#7D4535"/>
+  <!-- Grill lines -->
+  <line x1="60" y1="121" x2="65" y2="139" stroke="#5A2D1A" stroke-width="2"/>
+  <line x1="85" y1="121" x2="90" y2="139" stroke="#5A2D1A" stroke-width="2"/>
+  <line x1="110" y1="121" x2="115" y2="139" stroke="#5A2D1A" stroke-width="2"/>
+  <line x1="135" y1="121" x2="140" y2="139" stroke="#5A2D1A" stroke-width="2"/>
+  <!-- Bottom bun -->
+  <rect x="35" y="140" width="130" height="18" rx="9" fill="#DEB887"/>
+  <rect x="35" y="140" width="130" height="9" rx="9" fill="#F4A460"/>
+  <!-- Label -->
+  <text x="100" y="185" text-anchor="middle" font-family="system-ui,sans-serif" font-size="13" font-weight="700" fill="#E8503A">Hamburguesa</text>
+</svg>

@@ -1,0 +1,69 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 200" width="200" height="200">
+  <!-- Background -->
+  <rect width="200" height="200" fill="#3d2b1f"/>
+  <!-- Board border frame -->
+  <rect x="14" y="14" width="172" height="172" rx="4" fill="#b8860b"/>
+  <!-- Chess board -->
+  <rect x="22" y="22" width="156" height="156" fill="#f0d9b5"/>
+  <!-- Dark squares (8x8, each 19.5px) -->
+  <g fill="#b58863">
+    <!-- Row 1 (top, black starts on even columns) -->
+    <rect x="22" y="22" width="19" height="19"/>
+    <rect x="60" y="22" width="20" height="19"/>
+    <rect x="99" y="22" width="19" height="19"/>
+    <rect x="138" y="22" width="20" height="19"/>
+    <!-- Row 2 -->
+    <rect x="41" y="41" width="19" height="19"/>
+    <rect x="80" y="41" width="19" height="19"/>
+    <rect x="119" y="41" width="19" height="19"/>
+    <rect x="158" y="41" width="20" height="19"/>
+    <!-- Row 3 -->
+    <rect x="22" y="60" width="19" height="19"/>
+    <rect x="60" y="60" width="20" height="19"/>
+    <rect x="99" y="60" width="19" height="19"/>
+    <rect x="138" y="60" width="20" height="19"/>
+    <!-- Row 4 -->
+    <rect x="41" y="79" width="19" height="19"/>
+    <rect x="80" y="79" width="19" height="19"/>
+    <rect x="119" y="79" width="19" height="19"/>
+    <rect x="158" y="79" width="20" height="19"/>
+    <!-- Row 5 -->
+    <rect x="22" y="98" width="19" height="20"/>
+    <rect x="60" y="98" width="20" height="20"/>
+    <rect x="99" y="98" width="19" height="20"/>
+    <rect x="138" y="98" width="20" height="20"/>
+    <!-- Row 6 -->
+    <rect x="41" y="118" width="19" height="19"/>
+    <rect x="80" y="118" width="19" height="19"/>
+    <rect x="119" y="118" width="19" height="19"/>
+    <rect x="158" y="118" width="20" height="19"/>
+    <!-- Row 7 -->
+    <rect x="22" y="137" width="19" height="19"/>
+    <rect x="60" y="137" width="20" height="19"/>
+    <rect x="99" y="137" width="19" height="19"/>
+    <rect x="138" y="137" width="20" height="19"/>
+    <!-- Row 8 -->
+    <rect x="41" y="156" width="19" height="22"/>
+    <rect x="80" y="156" width="19" height="22"/>
+    <rect x="119" y="156" width="19" height="22"/>
+    <rect x="158" y="156" width="20" height="22"/>
+  </g>
+  <!-- White King (center-ish) -->
+  <g transform="translate(89,88)">
+    <rect x="6" y="0" width="6" height="4" fill="white"/>
+    <rect x="3" y="2" width="12" height="3" fill="white"/>
+    <rect x="5" y="5" width="8" height="8" fill="white"/>
+    <path d="M3 13 Q9 11 15 13 L14 18 H4 Z" fill="white"/>
+    <ellipse cx="9" cy="18" rx="7" ry="2.5" fill="white"/>
+  </g>
+  <!-- Black King (opposite side) -->
+  <g transform="translate(89,97)">
+    <rect x="6" y="0" width="6" height="4" fill="#1a1a1a"/>
+    <rect x="3" y="2" width="12" height="3" fill="#1a1a1a"/>
+    <rect x="5" y="5" width="8" height="8" fill="#1a1a1a"/>
+    <path d="M3 13 Q9 11 15 13 L14 18 H4 Z" fill="#1a1a1a"/>
+    <ellipse cx="9" cy="18" rx="7" ry="2.5" fill="#1a1a1a"/>
+  </g>
+  <!-- Label -->
+  <text x="100" y="194" text-anchor="middle" font-family="Georgia,serif" font-size="9" fill="#f0d9b5" letter-spacing="1">ESCACS</text>
+</svg>

@@ -1,0 +1,31 @@
+<svg viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" width="200" height="200">
+  <rect width="200" height="200" fill="#0F172A" rx="16"/>
+  <!-- Background gradient -->
+  <radialGradient id="glow2" cx="50%" cy="40%" r="55%">
+    <stop offset="0%" stop-color="#DC2626" stop-opacity="0.3"/>
+    <stop offset="100%" stop-color="#0F172A" stop-opacity="0"/>
+  </radialGradient>
+  <rect width="200" height="200" fill="url(#glow2)" rx="16"/>
+  <!-- Body silhouette -->
+  <ellipse cx="100" cy="148" rx="50" ry="34" fill="#1E293B"/>
+  <!-- Neck -->
+  <rect x="88" y="112" width="24" height="20" rx="4" fill="#7C6040"/>
+  <!-- Head -->
+  <ellipse cx="100" cy="96" rx="33" ry="37" fill="#7C6040"/>
+  <!-- Dark hair -->
+  <path d="M67 84 Q68 55 100 50 Q132 55 133 84 Q133 70 128 62 Q115 42 100 40 Q85 42 72 62 Q67 70 67 84 Z" fill="#1A1008"/>
+  <path d="M67 84 Q64 96 66 104 Q62 88 67 84 Z" fill="#1A1008"/>
+  <!-- Face features -->
+  <ellipse cx="88" cy="92" rx="4" ry="5" fill="#1A1008"/>
+  <ellipse cx="112" cy="92" rx="4" ry="5" fill="#1A1008"/>
+  <path d="M90 110 Q100 116 110 110" stroke="#3D2010" stroke-width="2.5" fill="none" stroke-linecap="round"/>
+  <!-- Chain necklace -->
+  <path d="M80 128 Q100 135 120 128" fill="none" stroke="#FFD700" stroke-width="2" stroke-dasharray="3,2"/>
+  <circle cx="100" cy="134" r="3" fill="#FFD700"/>
+  <!-- Music notes floating -->
+  <text x="25" y="55" font-family="system-ui,sans-serif" font-size="20" fill="rgba(220,38,38,0.4)">♪</text>
+  <text x="158" y="48" font-family="system-ui,sans-serif" font-size="16" fill="rgba(220,38,38,0.35)">♫</text>
+  <text x="155" y="80" font-family="system-ui,sans-serif" font-size="12" fill="rgba(220,38,38,0.25)">♩</text>
+  <!-- Name -->
+  <text x="100" y="180" text-anchor="middle" font-family="system-ui,sans-serif" font-size="15" font-weight="800" fill="#F87171">Rels B</text>
+</svg>
