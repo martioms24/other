@@ -510,6 +510,16 @@ function ResultsPage({
     }
   }, [allCorrect])
 
+  // Auto-redirect to contract page after 100 seconds if all correct
+  useEffect(() => {
+    if (allCorrect) {
+      const timer = setTimeout(() => {
+        window.location.href = '/contract'
+      }, 100000) // 100 seconds
+      return () => clearTimeout(timer)
+    }
+  }, [allCorrect])
+
   return (
     <main className="min-h-screen py-8 px-4" style={{ background: 'linear-gradient(160deg, #fff0f8 0%, #fff8f5 50%, #f0f8ff 100%)' }}>
       <div className="max-w-lg mx-auto" style={{ animation: 'slideResultsIn 0.4s ease-out' }}>
