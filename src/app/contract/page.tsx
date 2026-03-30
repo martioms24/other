@@ -1,6 +1,6 @@
 'use client'
 
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Link from 'next/link'
 
 export default function ContractPage() {
@@ -8,6 +8,36 @@ export default function ContractPage() {
   const [password, setPassword] = useState('')
   const [isUnlocked, setIsUnlocked] = useState(false)
   const [error, setError] = useState('')
+  
+  // Countdown State
+  const [isTimeUp, setIsTimeUp] = useState(false)
+  const [timeLeft, setTimeLeft] = useState({
+    days: 0, hours: 0, minutes: 0, seconds: 0
+  })
+
+  useEffect(() => {
+    // Target: April 4, 2026, 16:44:44 Spanish Time (CEST - UTC+2)
+    const targetDate = new Date('2026-04-04T16:44:44+02:00').getTime()
+
+    const timer = setInterval(() => {
+      const now = new Date().getTime()
+      const difference = targetDate - now
+
+      if (difference <= 0) {
+        setIsTimeUp(true)
+        clearInterval(timer)
+      } else {
+        setTimeLeft({
+          days: Math.floor(difference / (1000 * 60 * 60 * 24)),
+          hours: Math.floor((difference / (1000 * 60 * 60)) % 24),
+          minutes: Math.floor((difference / 1000 / 60) % 60),
+          seconds: Math.floor((difference / 1000) % 60),
+        })
+      }
+    }, 1000)
+
+    return () => clearInterval(timer)
+  }, [])
 
   const handlePasswordSubmit = (e: React.FormEvent) => {
     e.preventDefault()
@@ -19,6 +49,27 @@ export default function ContractPage() {
     }
   }
 
+  // 1. Show Countdown Screen if time isn't up
+  if (!isTimeUp) {
+    return (
+      <main className="min-h-screen flex flex-col items-center justify-center p-6 text-center" style={{ background: 'var(--bg)' }}>
+        <div className="text-6xl mb-6">⏳</div>
+        <h1 className="text-2xl font-bold mb-2" style={{ color: 'var(--text)' }}>Document Bloquejat</h1>
+        <p className="mb-8 opacity-70">El contracte secret estarà disponible en:</p>
+        
+        <div className="flex gap-4 text-center">
+          {Object.entries(timeLeft).map(([label, value]) => (
+            <div key={label} className="flex flex-col">
+              <span className="text-3xl font-black">{value.toString().padStart(2, '0')}</span>
+              <span className="text-xs uppercase tracking-widest opacity-50">{label}</span>
+            </div>
+          ))}
+        </div>
+      </main>
+    )
+  }
+
+  // 2. Show Original Content once time is up
   return (
     <main className="min-h-screen flex flex-col" style={{ background: 'var(--bg)' }}>
       {/* Header */}
@@ -106,7 +157,6 @@ export default function ContractPage() {
             />
           </div>
 
-          {/* Download button */}
           <div className="mt-4 text-center">
             <a
               href="/contract.pdf"
