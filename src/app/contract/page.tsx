@@ -54,8 +54,8 @@ export default function ContractPage() {
     return (
       <main className="min-h-screen flex flex-col items-center justify-center p-6 text-center" style={{ background: 'var(--bg)' }}>
         <div className="text-6xl mb-6">⏳</div>
-        <h1 className="text-2xl font-bold mb-2" style={{ color: 'var(--text)' }}>Document Bloquejat</h1>
-        <p className="mb-8 opacity-70">El contracte secret estarà disponible en:</p>
+        <h1 className="text-2xl font-bold mb-2" style={{ color: 'var(--text)' }}>Pàgina Bloquejada</h1>
+        <p className="mb-8 opacity-70">La pàgina estarà disponible en:</p>
         
         <div className="flex gap-4 text-center">
           {Object.entries(timeLeft).map(([label, value]) => (
