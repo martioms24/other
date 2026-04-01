@@ -444,8 +444,8 @@ export default function BirthdayPage() {
       source.connect(analyser)
 
       const dataArray = new Uint8Array(analyser.frequencyBinCount)
-      const BLOW_THRESHOLD = 75
-      const BLOW_SUSTAIN   = 20
+      const BLOW_THRESHOLD = 50
+      const BLOW_SUSTAIN   = 15
 
       setBlowState('listening')
 
