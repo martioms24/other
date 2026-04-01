@@ -17,7 +17,7 @@ export default function ContractPage() {
 
   useEffect(() => {
     // Target: April 4, 2026, 16:44:44 Spanish Time (CEST - UTC+2)
-    const targetDate = new Date('2026-04-04T16:44:44+02:00').getTime()
+    const targetDate = new Date('2026-04-04T04:44:44+02:00').getTime()
 
     const timer = setInterval(() => {
       const now = new Date().getTime()
