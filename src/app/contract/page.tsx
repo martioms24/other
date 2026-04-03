@@ -148,7 +148,7 @@ export default function ContractPage() {
             minHeight: 'calc(100vh - 120px)',
           }}>
             <iframe
-              src="/contracte.pdf"
+              src="/contracte2.pdf"
               title="Contracte Secret"
               width="100%"
               height="100%"
@@ -159,7 +159,7 @@ export default function ContractPage() {
 
           <div className="mt-4 text-center">
             <a
-              href="/contracte.pdf"
+              href="/contracte2.pdf"
               download
               className="inline-flex items-center gap-2 text-sm font-medium px-4 py-2 rounded-xl"
               style={{
